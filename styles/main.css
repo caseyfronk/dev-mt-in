@@ -1,0 +1,52 @@
+#header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+#search-icon {
+    width: 50px;
+}
+
+#ham-icon {
+    width: 50px;
+}
+
+#main-container {
+    margin-top: 100px;
+    display: flex;
+}
+
+#left-main {
+    flex: 4;
+    border: 1px solid gray;
+}
+
+#welcome-text {
+    text-align: center;
+}
+
+.main-input {
+    width: 300px;
+    height: 30px;
+}
+
+#right-main {
+    flex: 6;
+    border: 1px solid gray;
+}
+
+#footer-container {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
